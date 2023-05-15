@@ -37,3 +37,35 @@
 .single-todo:hover {
   box-shadow: 0 5px 5px 0px rgba(0, 0, 0, 0.1);
 }
+
+@media(max-width: 700px) {
+
+  .single-todo {
+    .icons {
+      .icon {
+        font-size: 30px;
+        margin: 10px;
+      }
+    }
+  }
+  }
+  @media(max-width: 400px) {
+
+    .single-todo {
+      .single-todo__text{
+        font-size: 15px;
+      }
+      .icons {
+        .icon {
+          font-size: 20px;
+          height: 10px;
+          width: 10px;
+          line-height: 10px;
+          padding: 5px 5px;
+          margin: 0;
+          
+        }
+      }
+    }
+    }
+
